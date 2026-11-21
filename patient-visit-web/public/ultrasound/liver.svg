@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.3" numOctaves="4" seed="21" result="n" />
+      <feColorMatrix in="n" type="saturate" values="0" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.42" /></feComponentTransfer>
+    </filter>
+    <radialGradient id="liver" cx="38%" cy="42%" r="66%">
+      <stop offset="0%" stop-color="#bdbdbd" stop-opacity="0.92" />
+      <stop offset="65%" stop-color="#737373" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#141414" stop-opacity="0.95" />
+    </radialGradient>
+    <radialGradient id="gb" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#0a0a0a" stop-opacity="0.98" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0.98" />
+    </radialGradient>
+  </defs>
+  <rect width="480" height="360" fill="#000" />
+  <path d="M30 100 Q170 40 320 80 Q420 110 440 200 Q410 290 250 315 Q100 300 40 220 Z" fill="url(#liver)" />
+  <path d="M35 78 Q240 45 445 92" stroke="#f0f0f0" stroke-width="3" fill="none" opacity="0.5" />
+  <ellipse cx="205" cy="228" rx="40" ry="27" fill="url(#gb)" stroke="#c9c9c9" stroke-width="1.5" />
+  <path d="M300 175 Q355 190 385 220" stroke="#d8d8d8" stroke-width="7" fill="none" opacity="0.55" />
+  <path d="M300 190 Q345 205 372 230" stroke="#bbb" stroke-width="4" fill="none" opacity="0.45" />
+  <rect width="480" height="360" filter="url(#grain)" opacity="0.55" />
+  <text x="12" y="24" fill="#7dff7d" font-family="monospace" font-size="14">LIVER 3.5MHz</text>
+  <text x="12" y="44" fill="#7dff7d" font-family="monospace" font-size="12">RL 14.2cm  GB 7x3mm</text>
+  <text x="360" y="348" fill="#fff" font-family="monospace" font-size="12">G 62  MI 0.7</text>
+</svg>

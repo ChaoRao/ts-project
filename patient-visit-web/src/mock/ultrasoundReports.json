@@ -1,0 +1,91 @@
+{
+  "P20260001": [
+    {
+      "id": "UR001-1",
+      "reportNo": "US20261118001",
+      "examItem": "心脏彩色多普勒超声检查",
+      "bodyPart": "心脏",
+      "examDate": "2026-11-18 10:20",
+      "reportDate": "2026-11-18 11:05",
+      "examDoctor": "赵敏",
+      "reviewDoctor": "钱伟",
+      "device": "GE Vivid E95",
+      "findings": "左房内径 38mm，左室舒张末期内径 52mm，室间隔厚度 11mm。左室前壁及前间隔中段运动减弱，余节段运动尚可。各瓣膜形态、回声未见明显异常，启闭尚可。二尖瓣口血流 E 峰 0.85m/s，A 峰 0.92m/s。LVEF 52%。",
+      "conclusion": "左室前壁及前间隔节段性室壁运动异常，左室收缩功能轻度减低（LVEF 52%），二尖瓣轻度反流。结合临床，符合冠心病表现。",
+      "images": [
+        { "id": "IM001-1", "url": "/ultrasound/heart.svg", "caption": "左室长轴切面" },
+        { "id": "IM001-2", "url": "/ultrasound/heart4ch.svg", "caption": "心尖四腔心切面" }
+      ]
+    },
+    {
+      "id": "UR001-2",
+      "reportNo": "US20261119002",
+      "examItem": "腹部超声检查（肝胆胰脾）",
+      "bodyPart": "腹部",
+      "examDate": "2026-11-19 09:10",
+      "reportDate": "2026-11-19 09:45",
+      "examDoctor": "赵敏",
+      "reviewDoctor": "钱伟",
+      "device": "Philips EPIQ 7",
+      "findings": "肝脏形态饱满，实质回声细密增强，远场回声衰减，肝内管道结构显示欠清。胆囊大小形态正常，壁光滑，腔内未见异常回声。胰腺、脾脏未见明显异常。",
+      "conclusion": "中度脂肪肝。胆囊、胰腺、脾脏未见明显异常。",
+      "images": [
+        { "id": "IM001-3", "url": "/ultrasound/liver.svg", "caption": "肝右叶斜切面" }
+      ]
+    }
+  ],
+  "P20260002": [
+    {
+      "id": "UR002-1",
+      "reportNo": "US20261120001",
+      "examItem": "腹部超声检查（肝胆胰脾）",
+      "bodyPart": "腹部",
+      "examDate": "2026-11-20 10:50",
+      "reportDate": "2026-11-20 11:30",
+      "examDoctor": "孙倩",
+      "reviewDoctor": "周涛",
+      "device": "Mindray Resona 7",
+      "findings": "肝脏形态大小正常，实质回声细密增强，分布欠均匀，肝内管道结构显示尚清。胆囊大小正常，壁光滑，腔内未见结石及息肉样病变。胰腺、脾脏未见明显异常。",
+      "conclusion": "轻度脂肪肝。建议控制饮食、加强运动，定期复查。",
+      "images": [
+        { "id": "IM002-1", "url": "/ultrasound/liver.svg", "caption": "肝右叶肋间切面" }
+      ]
+    }
+  ],
+  "P20260003": [
+    {
+      "id": "UR003-1",
+      "reportNo": "US20261116001",
+      "examItem": "肺部及胸腔超声检查",
+      "bodyPart": "胸部",
+      "examDate": "2026-11-16 16:30",
+      "reportDate": "2026-11-16 17:10",
+      "examDoctor": "赵敏",
+      "reviewDoctor": "孙丽",
+      "device": "GE Venue Go",
+      "findings": "右下肺野可见片状低回声区，边界欠清，内可见支气管充气征。右侧胸腔可见深度约 18mm 的无回声区，透声尚可，其内未见明显分隔。左侧胸腔未见明显积液。",
+      "conclusion": "右下肺实变（肺炎）超声表现；右侧胸腔少量积液，建议结合临床及胸部 CT 综合评估。",
+      "images": [
+        { "id": "IM003-1", "url": "/ultrasound/chest.svg", "caption": "右下肺及胸膜腔切面" }
+      ]
+    }
+  ],
+  "P20260004": [
+    {
+      "id": "UR004-1",
+      "reportNo": "US20261121001",
+      "examItem": "腹部超声检查（消化系统）",
+      "bodyPart": "腹部",
+      "examDate": "2026-11-21 09:00",
+      "reportDate": "2026-11-21 09:35",
+      "examDoctor": "孙倩",
+      "reviewDoctor": "吴磊",
+      "device": "Mindray DC-70",
+      "findings": "肝、胆、胰、脾未见明显异常。小肠肠壁增厚，最厚约 3.2mm，肠腔内可见较多气体回声，肠蠕动亢进。腹腔内未见明显游离液体。",
+      "conclusion": "小肠肠壁增厚、肠蠕动亢进，符合急性胃肠炎超声表现。",
+      "images": [
+        { "id": "IM004-1", "url": "/ultrasound/abdomen.svg", "caption": "脐周小肠横切面" }
+      ]
+    }
+  ]
+}

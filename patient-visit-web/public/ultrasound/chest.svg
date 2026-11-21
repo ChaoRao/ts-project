@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.34" numOctaves="5" seed="33" result="n" />
+      <feColorMatrix in="n" type="saturate" values="0" />
+      <feComponentTransfer><feFuncA type="linear" slope="0.45" /></feComponentTransfer>
+    </filter>
+    <linearGradient id="pleura" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6e6e6" stop-opacity="0.95" />
+      <stop offset="15%" stop-color="#9a9a9a" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="#000" />
+  <path d="M0 95 Q240 70 480 98 L480 130 Q240 105 0 132 Z" fill="url(#pleura)" />
+  <path d="M60 150 Q140 180 120 250" stroke="#a8a8a8" stroke-width="4" fill="none" opacity="0.5" />
+  <path d="M200 145 Q280 175 260 255" stroke="#b5b5b5" stroke-width="4" fill="none" opacity="0.5" />
+  <path d="M340 148 Q415 180 395 250" stroke="#a0a0a0" stroke-width="4" fill="none" opacity="0.5" />
+  <ellipse cx="175" cy="215" rx="34" ry="22" fill="#141414" opacity="0.85" />
+  <ellipse cx="315" cy="225" rx="28" ry="18" fill="#141414" opacity="0.85" />
+  <rect width="480" height="360" filter="url(#grain)" opacity="0.6" />
+  <text x="12" y="24" fill="#7dff7d" font-family="monospace" font-size="14">LUNG 5.0MHz</text>
+  <text x="12" y="44" fill="#7dff7d" font-family="monospace" font-size="12">PLEURAL EFFUSION 18mm</text>
+  <text x="360" y="348" fill="#fff" font-family="monospace" font-size="12">MI 0.6</text>
+</svg>

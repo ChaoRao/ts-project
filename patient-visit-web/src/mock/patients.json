@@ -1,0 +1,201 @@
+[
+  {
+    "id": "P20260001",
+    "name": "张伟",
+    "gender": "男",
+    "age": 58,
+    "patientNo": "ZY2026110001",
+    "idCard": "310***********1234",
+    "phone": "138****5678",
+    "department": "心血管内科",
+    "visitType": "住院",
+    "visitDate": "2026-11-18 09:30",
+    "status": "在院",
+    "chiefComplaint": "反复胸闷、胸痛 3 天，加重 6 小时",
+    "presentIllness": "患者 3 天前活动后出现胸闷、胸痛，位于胸骨后，呈压榨样，持续约 5-10 分钟，休息后可缓解。6 小时前无明显诱因再次发作，程度加重，伴大汗、恶心，休息后不能缓解，遂来院就诊。既往高血压病史 10 年，2 型糖尿病病史 6 年。",
+    "doctor": "刘敏",
+    "bedNo": "心内 12-3",
+    "diagnoses": [
+      {
+        "id": "D001-1",
+        "name": "冠状动脉粥样硬化性心脏病 急性非ST段抬高型心肌梗死",
+        "icdCode": "I21.4",
+        "type": "主要诊断",
+        "status": "确诊",
+        "diagnoseDate": "2026-11-18"
+      },
+      {
+        "id": "D001-2",
+        "name": "高血压 3 级（很高危）",
+        "icdCode": "I10",
+        "type": "其他诊断",
+        "status": "确诊",
+        "diagnoseDate": "2026-11-18"
+      },
+      {
+        "id": "D001-3",
+        "name": "2 型糖尿病",
+        "icdCode": "E11.9",
+        "type": "其他诊断",
+        "status": "确诊",
+        "diagnoseDate": "2026-11-18"
+      }
+    ],
+    "vitalSigns": [
+      { "date": "2026-11-18 09:30", "temperature": 36.8, "systolic": 148, "diastolic": 92, "heartRate": 96, "respiratoryRate": 20, "spo2": 96 },
+      { "date": "2026-11-19 08:00", "temperature": 36.6, "systolic": 136, "diastolic": 84, "heartRate": 88, "respiratoryRate": 18, "spo2": 97 },
+      { "date": "2026-11-20 08:00", "temperature": 36.5, "systolic": 130, "diastolic": 80, "heartRate": 82, "respiratoryRate": 18, "spo2": 98 }
+    ],
+    "labResults": [
+      { "id": "L001-1", "name": "高敏肌钙蛋白 I", "value": "2.35", "unit": "ng/mL", "referenceRange": "< 0.034", "abnormal": true, "date": "2026-11-18" },
+      { "id": "L001-2", "name": "肌酸激酶同工酶 CK-MB", "value": "28.6", "unit": "U/L", "referenceRange": "0 - 25", "abnormal": true, "date": "2026-11-18" },
+      { "id": "L001-3", "name": "B 型脑钠肽 BNP", "value": "186", "unit": "pg/mL", "referenceRange": "< 100", "abnormal": true, "date": "2026-11-18" },
+      { "id": "L001-4", "name": "总胆固醇", "value": "6.12", "unit": "mmol/L", "referenceRange": "< 5.20", "abnormal": true, "date": "2026-11-19" },
+      { "id": "L001-5", "name": "空腹血糖", "value": "8.3", "unit": "mmol/L", "referenceRange": "3.9 - 6.1", "abnormal": true, "date": "2026-11-20" }
+    ],
+    "visitRecords": [
+      { "id": "V001-1", "date": "2026-11-18 09:30", "department": "心血管内科", "doctor": "刘敏", "type": "门诊", "summary": "因反复胸闷胸痛就诊，心电图示 ST 段压低，建议入院进一步诊治。" },
+      { "id": "V001-2", "date": "2026-11-18 14:20", "department": "心血管内科", "doctor": "刘敏", "type": "住院", "summary": "完善冠脉造影，前降支狭窄约 85%，行 PCI 术植入支架 1 枚，术程顺利。" },
+      { "id": "V001-3", "date": "2026-11-20 08:30", "department": "心血管内科", "doctor": "刘敏", "type": "住院", "summary": "术后恢复良好，胸痛明显缓解，继续双联抗血小板及他汀治疗。" }
+    ]
+  },
+  {
+    "id": "P20260002",
+    "name": "李芳",
+    "gender": "女",
+    "age": 45,
+    "patientNo": "MZ2026110238",
+    "idCard": "310***********2846",
+    "phone": "139****2233",
+    "department": "内分泌科",
+    "visitType": "门诊",
+    "visitDate": "2026-11-20 10:15",
+    "status": "就诊中",
+    "chiefComplaint": "口干、多饮、体重下降 2 月余",
+    "presentIllness": "患者近 2 月来无明显诱因出现口干、多饮，每日饮水量约 3000ml，伴多尿，体重下降约 5kg，偶有双下肢乏力。既往无糖尿病家族史，未规律体检。",
+    "doctor": "周涛",
+    "diagnoses": [
+      {
+        "id": "D002-1",
+        "name": "2 型糖尿病",
+        "icdCode": "E11.9",
+        "type": "主要诊断",
+        "status": "确诊",
+        "diagnoseDate": "2026-11-20"
+      },
+      {
+        "id": "D002-2",
+        "name": "高脂血症",
+        "icdCode": "E78.5",
+        "type": "其他诊断",
+        "status": "疑似",
+        "diagnoseDate": "2026-11-20"
+      }
+    ],
+    "vitalSigns": [
+      { "date": "2026-11-20 10:15", "temperature": 36.6, "systolic": 126, "diastolic": 78, "heartRate": 78, "respiratoryRate": 18, "spo2": 98 },
+      { "date": "2026-11-20 10:40", "temperature": 36.5, "systolic": 122, "diastolic": 76, "heartRate": 74, "respiratoryRate": 17, "spo2": 99 }
+    ],
+    "labResults": [
+      { "id": "L002-1", "name": "空腹血糖", "value": "9.6", "unit": "mmol/L", "referenceRange": "3.9 - 6.1", "abnormal": true, "date": "2026-11-20" },
+      { "id": "L002-2", "name": "糖化血红蛋白 HbA1c", "value": "8.2", "unit": "%", "referenceRange": "4.0 - 6.0", "abnormal": true, "date": "2026-11-20" },
+      { "id": "L002-3", "name": "总胆固醇", "value": "5.80", "unit": "mmol/L", "referenceRange": "< 5.20", "abnormal": true, "date": "2026-11-20" },
+      { "id": "L002-4", "name": "甘油三酯", "value": "2.41", "unit": "mmol/L", "referenceRange": "< 1.70", "abnormal": true, "date": "2026-11-20" },
+      { "id": "L002-5", "name": "尿常规 尿糖", "value": "3+", "unit": "", "referenceRange": "阴性", "abnormal": true, "date": "2026-11-20" }
+    ],
+    "visitRecords": [
+      { "id": "V002-1", "date": "2026-11-20 10:15", "department": "内分泌科", "doctor": "周涛", "type": "门诊", "summary": "主诉口干多饮伴体重下降，查空腹血糖 9.6mmol/L，糖化血红蛋白 8.2%，考虑 2 型糖尿病。" },
+      { "id": "V002-2", "date": "2026-11-20 11:00", "department": "内分泌科", "doctor": "周涛", "type": "门诊", "summary": "予以二甲双胍联合达格列净降糖，嘱糖尿病饮食、运动管理，2 周后复查血糖。" }
+    ]
+  },
+  {
+    "id": "P20260003",
+    "name": "王建国",
+    "gender": "男",
+    "age": 72,
+    "patientNo": "ZY2026110086",
+    "idCard": "310***********0019",
+    "phone": "137****9900",
+    "department": "呼吸内科",
+    "visitType": "住院",
+    "visitDate": "2026-11-16 15:40",
+    "status": "在院",
+    "chiefComplaint": "发热、咳嗽咳痰 5 天，气促加重 2 天",
+    "presentIllness": "患者 5 天前受凉后出现发热，最高体温 38.9℃，伴咳嗽、咳黄黏痰，量中等，不易咳出。2 天前出现活动后气促，休息可缓解。既往慢性阻塞性肺疾病病史 15 年，长期吸烟史。",
+    "doctor": "孙丽",
+    "bedNo": "呼吸 08-2",
+    "diagnoses": [
+      {
+        "id": "D003-1",
+        "name": "社区获得性肺炎",
+        "icdCode": "J18.9",
+        "type": "主要诊断",
+        "status": "确诊",
+        "diagnoseDate": "2026-11-16"
+      },
+      {
+        "id": "D003-2",
+        "name": "慢性阻塞性肺疾病急性加重",
+        "icdCode": "J44.1",
+        "type": "其他诊断",
+        "status": "确诊",
+        "diagnoseDate": "2026-11-16"
+      }
+    ],
+    "vitalSigns": [
+      { "date": "2026-11-16 15:40", "temperature": 38.9, "systolic": 142, "diastolic": 88, "heartRate": 104, "respiratoryRate": 24, "spo2": 91 },
+      { "date": "2026-11-18 08:00", "temperature": 37.8, "systolic": 134, "diastolic": 82, "heartRate": 92, "respiratoryRate": 21, "spo2": 94 },
+      { "date": "2026-11-20 08:00", "temperature": 36.9, "systolic": 128, "diastolic": 78, "heartRate": 84, "respiratoryRate": 19, "spo2": 96 }
+    ],
+    "labResults": [
+      { "id": "L003-1", "name": "白细胞计数 WBC", "value": "13.8", "unit": "10^9/L", "referenceRange": "3.5 - 9.5", "abnormal": true, "date": "2026-11-16" },
+      { "id": "L003-2", "name": "中性粒细胞百分比", "value": "85.2", "unit": "%", "referenceRange": "40 - 75", "abnormal": true, "date": "2026-11-16" },
+      { "id": "L003-3", "name": "C 反应蛋白 CRP", "value": "96", "unit": "mg/L", "referenceRange": "< 10", "abnormal": true, "date": "2026-11-16" },
+      { "id": "L003-4", "name": "降钙素原 PCT", "value": "1.20", "unit": "ng/mL", "referenceRange": "< 0.05", "abnormal": true, "date": "2026-11-16" },
+      { "id": "L003-5", "name": "动脉血氧分压 PaO2", "value": "68", "unit": "mmHg", "referenceRange": "80 - 100", "abnormal": true, "date": "2026-11-16" }
+    ],
+    "visitRecords": [
+      { "id": "V003-1", "date": "2026-11-16 15:40", "department": "呼吸内科", "doctor": "孙丽", "type": "急诊", "summary": "发热咳嗽伴气促，胸片示右下肺片状渗出影，以肺炎收入院。" },
+      { "id": "V003-2", "date": "2026-11-16 18:20", "department": "呼吸内科", "doctor": "孙丽", "type": "住院", "summary": "予头孢曲松联合阿奇霉素抗感染、氨溴索祛痰、低流量吸氧治疗。" },
+      { "id": "V003-3", "date": "2026-11-20 08:30", "department": "呼吸内科", "doctor": "孙丽", "type": "住院", "summary": "体温正常 3 天，气促缓解，复查炎症指标下降，继续抗感染治疗。" }
+    ]
+  },
+  {
+    "id": "P20260004",
+    "name": "陈静",
+    "gender": "女",
+    "age": 33,
+    "patientNo": "JZ2026110451",
+    "idCard": "310***********4520",
+    "phone": "136****1188",
+    "department": "消化内科",
+    "visitType": "急诊",
+    "visitDate": "2026-11-21 08:20",
+    "status": "就诊中",
+    "chiefComplaint": "腹痛、腹泻伴恶心呕吐 1 天",
+    "presentIllness": "患者 1 天前食用不洁食物后出现脐周阵发性绞痛，腹泻 6-8 次/日，为黄色稀水样便，伴恶心、呕吐 3 次，无发热。自觉乏力、口干。",
+    "doctor": "吴磊",
+    "diagnoses": [
+      {
+        "id": "D004-1",
+        "name": "急性胃肠炎",
+        "icdCode": "K52.9",
+        "type": "主要诊断",
+        "status": "疑似",
+        "diagnoseDate": "2026-11-21"
+      }
+    ],
+    "vitalSigns": [
+      { "date": "2026-11-21 08:20", "temperature": 37.1, "systolic": 108, "diastolic": 68, "heartRate": 92, "respiratoryRate": 19, "spo2": 98 }
+    ],
+    "labResults": [
+      { "id": "L004-1", "name": "白细胞计数 WBC", "value": "11.2", "unit": "10^9/L", "referenceRange": "3.5 - 9.5", "abnormal": true, "date": "2026-11-21" },
+      { "id": "L004-2", "name": "血清钾 K", "value": "3.2", "unit": "mmol/L", "referenceRange": "3.5 - 5.3", "abnormal": true, "date": "2026-11-21" },
+      { "id": "L004-3", "name": "血清钠 Na", "value": "134", "unit": "mmol/L", "referenceRange": "137 - 147", "abnormal": true, "date": "2026-11-21" }
+    ],
+    "visitRecords": [
+      { "id": "V004-1", "date": "2026-11-21 08:20", "department": "消化内科", "doctor": "吴磊", "type": "急诊", "summary": "进食不洁食物后腹痛腹泻伴呕吐，查血象升高，考虑急性胃肠炎。" },
+      { "id": "V004-2", "date": "2026-11-21 09:10", "department": "消化内科", "doctor": "吴磊", "type": "急诊", "summary": "予蒙脱石散止泻、口服补液盐纠正电解质紊乱，嘱清淡饮食，不适随诊。" }
+    ]
+  }
+]
